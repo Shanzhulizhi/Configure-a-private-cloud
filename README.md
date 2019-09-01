@@ -25,8 +25,8 @@
     我们要使 VirtualBox 内部虚拟机可以通过内部虚拟网络，实现虚拟机之间、虚拟机与主机的通讯。
     **配置过程：**
      （1） 在VirtualBox菜单中点击“**管理** ”，选择“**主机网络管理器**“”，点击左上角的“**创建**”选项；
-     
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190828165152172.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h1YW5fdGluZw==,size_16,color_FFFFFF,t_70）
+ ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190828165152172.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h1YW5fdGluZw==,size_16,color_FFFFFF,t_70)
+ 
     （2）在新建的虚拟网卡中填写好IPv4地址和网络掩码，勾选“**启用**”，并点击“**应用**”选项。
     ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190828165947648.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h1YW5fdGluZw==,size_16,color_FFFFFF,t_70)
     **验证**：在主机 windows 命令行窗口输入 ipconfig 就可以看到刚刚创建的虚拟网卡VirtualBox Host-Only Network #3的信息，和设置的一样。
