@@ -16,7 +16,9 @@
   由于我的电脑之前已经安装了VirtualBox，所以这里不做过程的说明。
 * **配置 VirtualBox 虚拟机存储位置**
    为了避免找不到虚拟机存储位置，特别是消耗启动盘的宝贵空间，所以我们要找一个剩余空间多的磁盘建立一个文件夹，作为虚拟机存储位置。
+   
    **①** 在VirtualBox菜单中找到“**管理**”这个选项，然后选择“**全局设定**”选项；
+   
    **②** 在全局设定页面中点击“**常规**”选项，选择自己建立的文件夹作为默认虚拟电脑位置。
    
 ![](https://img-blog.csdnimg.cn/20190828164009769.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h1YW5fdGluZw==,size_16,color_FFFFFF,t_70)
