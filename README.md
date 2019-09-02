@@ -71,6 +71,7 @@
 * **安装Base虚拟机**
    
    此处若有鼠标不显现的情况，解决方法见此[链接](https://www.jianshu.com/p/f9ffa8369673)。
+   
    (1)右键点击centos-hby虚拟机，然后选择“启动”选项，选择下载好的CentOS镜像文件作为启动盘；
    ![在这里插入图片描述](https://img-blog.csdnimg.cn/2019082819194215.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h1YW5fdGluZw==,size_16,color_FFFFFF,t_70)
    
@@ -129,10 +130,8 @@ cd /run/media/rootname/VBOXADDITIONS_4.xxx_59338
 sh ./VBoxLinuxAdditions.run 
     成功后可以看到鼠标不再受Right Ctrl的控制，屏幕也可以扩大了。
     ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190829090646165.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h1YW5fdGluZw==,size_16,color_FFFFFF,t_70)
-    
     (5)安装Chrome浏览器。
-    ①下载rpm包，搜索 “Google Chrome for Linux 下载” 得到；
-    
+    ①下载rpm包，搜索 “Google Chrome for Linux 下载” 得到;    
     ②使用命令```yum localinstall google-chrome-stable_current_x86_64.rpm```，yum会自动分析依赖，完成安装。
     ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190829152102938.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h1YW5fdGluZw==,size_16,color_FFFFFF,t_70)
 
