@@ -35,12 +35,13 @@
     ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190828165947648.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h1YW5fdGluZw==,size_16,color_FFFFFF,t_70)
     **验证**：在主机 windows 命令行窗口输入 ipconfig 就可以看到刚刚创建的虚拟网卡VirtualBox Host-Only Network #3的信息，和设置的一样。
     
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190828170424461.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h1YW5fdGluZw==,size_16,color_FFFFFF,t_70)
+    ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190828170424461.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h1YW5fdGluZw==,size_16,color_FFFFFF,t_70)
 
 ### 2.创建Linux虚拟机（选择了CentOS ）
 * **下载 Linux 发行版镜像**
   选择了CentoOS，所以在官网下载了Minimal ISO镜像文件。
 * **用VBox创建虚拟机**
+
    (1)新建一个虚拟机，以“centos”开头命名，选择好储存位置，要注意是64bit；
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190828171452582.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h1YW5fdGluZw==,size_16,color_FFFFFF,t_70)
   
