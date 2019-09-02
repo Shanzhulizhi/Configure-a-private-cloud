@@ -67,7 +67,9 @@
    
    **②**网卡2的连接方式为Host-only，而且选择界面为之前新建的网卡VirtualBox Host-Only Ethernet Adapter #3。
    ![](https://img-blog.csdnimg.cn/20190828191606374.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h1YW5fdGluZw==,size_16,color_FFFFFF,t_70)
+
 * **安装Base虚拟机**
+   
    此处若有鼠标不显现的情况，解决方法见此[链接](https://www.jianshu.com/p/f9ffa8369673)。
    (1)右键点击centos-hby虚拟机，然后选择“启动”选项，选择下载好的CentOS镜像文件作为启动盘；
    ![在这里插入图片描述](https://img-blog.csdnimg.cn/2019082819194215.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h1YW5fdGluZw==,size_16,color_FFFFFF,t_70)
@@ -81,7 +83,8 @@
   
    (4)点击“开始安装”，设置好ROOT密码，并填写用户名且设置为管理员；
    ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190828194653649.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h1YW5fdGluZw==,size_16,color_FFFFFF,t_70)
-   (5)升级OS内核
+  
+  (5)升级OS内核
    重启安装成功后，输入用户名和密码进入系统，然后输入```yum update```命令升级OS内核。
    ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190828202711469.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h1YW5fdGluZw==,size_16,color_FFFFFF,t_70)
    
@@ -106,7 +109,6 @@
     ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190828211015272.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h1YW5fdGluZw==,size_16,color_FFFFFF,t_70)
     (3)主虚拟机hby去ping第二个虚拟机hbyA，就是ping 192.168.99.101，成功ping通；通过ssh也能访问到该虚拟机，输入```logout```则可以断开连接。**注意要在两台虚拟机的第二块网卡都是Active的状态下，并且windows要开启git bash。**
     ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190828213310447.png)
-    ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190828213336450.png)
     
  * **安装CentOS桌面(以虚拟机hbyA为例)**
  
@@ -125,13 +127,15 @@
     ②然后点击窗口工具栏中的“**设备**”，选择“**安装增强功能**”，最后运行。右键查看桌面VBOXADDITIONS 的属性，看其存放路径,然后进入该存放路径进行安装，例如：
 cd /run/media/rootname/VBOXADDITIONS_4.xxx_59338 
 sh ./VBoxLinuxAdditions.run 
-    成功后可以看到鼠标不再受Right Ctrl的控制，屏幕也可以扩大了。![在这里插入图片描述](https://img-blog.csdnimg.cn/20190829090646165.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h1YW5fdGluZw==,size_16,color_FFFFFF,t_70)
+    成功后可以看到鼠标不再受Right Ctrl的控制，屏幕也可以扩大了。
+    ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190829090646165.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h1YW5fdGluZw==,size_16,color_FFFFFF,t_70)
     
     (5)安装Chrome浏览器。
     ①下载rpm包，搜索 “Google Chrome for Linux 下载” 得到；
     
     ②使用命令```yum localinstall google-chrome-stable_current_x86_64.rpm```，yum会自动分析依赖，完成安装。
     ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190829152102938.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h1YW5fdGluZw==,size_16,color_FFFFFF,t_70)
+
 ### **3.配置用远程桌面访问虚拟机**
 
    (1)从VirtualBox官网上下载与VirtualBox对应版本的Oracle VM VirtualBox Extension Pack。我的VirtualBox是6.0.4。
