@@ -130,7 +130,8 @@ cd /run/media/rootname/VBOXADDITIONS_4.xxx_59338
 sh ./VBoxLinuxAdditions.run 
     成功后可以看到鼠标不再受Right Ctrl的控制，屏幕也可以扩大了。
     ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190829090646165.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h1YW5fdGluZw==,size_16,color_FFFFFF,t_70)
-    (5)安装Chrome浏览器。
+    (5)安装Chrome浏览器
+    
     ①下载rpm包，搜索 “Google Chrome for Linux 下载” 得到;    
     ②使用命令```yum localinstall google-chrome-stable_current_x86_64.rpm```，yum会自动分析依赖，完成安装。
     ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190829152102938.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h1YW5fdGluZw==,size_16,color_FFFFFF,t_70)
