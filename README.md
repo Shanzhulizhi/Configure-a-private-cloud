@@ -68,8 +68,7 @@
    **②**网卡2的连接方式为Host-only，而且选择界面为之前新建的网卡VirtualBox Host-Only Ethernet Adapter #3。
    ![](https://img-blog.csdnimg.cn/20190828191606374.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h1YW5fdGluZw==,size_16,color_FFFFFF,t_70)
 * **安装Base虚拟机**
-
-此处若有鼠标不显现的情况，解决方法见此[链接](https://www.jianshu.com/p/f9ffa8369673)。
+   此处若有鼠标不显现的情况，解决方法见此[链接](https://www.jianshu.com/p/f9ffa8369673)。
    (1)右键点击centos-hby虚拟机，然后选择“启动”选项，选择下载好的CentOS镜像文件作为启动盘；
    ![在这里插入图片描述](https://img-blog.csdnimg.cn/2019082819194215.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h1YW5fdGluZw==,size_16,color_FFFFFF,t_70)
    
