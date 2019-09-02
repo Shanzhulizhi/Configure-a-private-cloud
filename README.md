@@ -21,7 +21,7 @@
    
    **②** 在全局设定页面中点击“**常规**”选项，选择自己建立的文件夹作为默认虚拟电脑位置。
    
-![](https://img-blog.csdnimg.cn/20190828164009769.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h1YW5fdGluZw==,size_16,color_FFFFFF,t_70)
+    ![](https://img-blog.csdnimg.cn/20190828164009769.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h1YW5fdGluZw==,size_16,color_FFFFFF,t_70)
 
 * **创建虚拟机内部虚拟网络**
     我们要使 VirtualBox 内部虚拟机可以通过内部虚拟网络，实现虚拟机之间、虚拟机与主机的通讯。
@@ -29,7 +29,7 @@
     **配置过程：**
      
      （1） 在VirtualBox菜单中点击“**管理** ”，选择“**主机网络管理器**“”，点击左上角的“**创建**”选项；
- ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190828165152172.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h1YW5fdGluZw==,size_16,color_FFFFFF,t_70)
+    ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190828165152172.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h1YW5fdGluZw==,size_16,color_FFFFFF,t_70)
  
     （2）在新建的虚拟网卡中填写好IPv4地址和网络掩码，勾选“**启用**”，并点击“**应用**”选项。
     ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190828165947648.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h1YW5fdGluZw==,size_16,color_FFFFFF,t_70)
@@ -43,7 +43,7 @@
 * **用VBox创建虚拟机**
 
    (1)新建一个虚拟机，以“centos”开头命名，选择好储存位置，要注意是64bit；
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190828171452582.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h1YW5fdGluZw==,size_16,color_FFFFFF,t_70)
+   ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190828171452582.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h1YW5fdGluZw==,size_16,color_FFFFFF,t_70)
   
   (2)设置内存大小；
    ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190828172004958.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h1YW5fdGluZw==,size_16,color_FFFFFF,t_70)
@@ -51,16 +51,19 @@
    (3)选择“创建虚拟硬盘”，并选择类型为VDI文件；
    ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190828172405980.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h1YW5fdGluZw==,size_16,color_FFFFFF,t_70)
    
-   (4)选择动态分配存储空间；![在这里插入图片描述](https://img-blog.csdnimg.cn/20190828172521444.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h1YW5fdGluZw==,size_16,color_FFFFFF,t_70)
+   (4)选择动态分配存储空间；
+   ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190828172521444.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h1YW5fdGluZw==,size_16,color_FFFFFF,t_70)
   
-  (5)设置存储空间大小不低于30G。避免以后扩展难。![在这里插入图片描述](https://img-blog.csdnimg.cn/20190828172636834.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h1YW5fdGluZw==,size_16,color_FFFFFF,t_70)
+  (5)设置存储空间大小不低于30G。避免以后扩展难。
+  ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190828172636834.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h1YW5fdGluZw==,size_16,color_FFFFFF,t_70)
    
    (6)配置虚拟机网卡
    第一块网卡必须是 NAT；第二块网卡连接方式： Host-Only，接口就是前面创建的虚拟网卡。右键点击centos-hby虚拟机，然后选择“设置”选项，查看“网络”界面。
    **①**网卡1的连接方式为NAT；
    ![在这里插入图片描述](https://img-blog.csdnimg.cn/2019082819150894.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h1YW5fdGluZw==,size_16,color_FFFFFF,t_70)
    
-   **②**网卡2的连接方式为Host-only，而且选择界面为之前新建的网卡VirtualBox Host-Only Ethernet Adapter #3。![](https://img-blog.csdnimg.cn/20190828191606374.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h1YW5fdGluZw==,size_16,color_FFFFFF,t_70)
+   **②**网卡2的连接方式为Host-only，而且选择界面为之前新建的网卡VirtualBox Host-Only Ethernet Adapter #3。
+   ![](https://img-blog.csdnimg.cn/20190828191606374.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h1YW5fdGluZw==,size_16,color_FFFFFF,t_70)
 * **安装Base虚拟机**
 此处若有鼠标不显现的情况，解决方法见此[链接](https://www.jianshu.com/p/f9ffa8369673)。
    (1)右键点击centos-hby虚拟机，然后选择“启动”选项，选择下载好的CentOS镜像文件作为启动盘；
@@ -69,10 +72,11 @@
    (2)按照提示选择语言，并且点击“安装位置”选项，选择“完成”；
    ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190828193731185.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h1YW5fdGluZw==,size_16,color_FFFFFF,t_70)
   
-  (3)点击“网络和主机名”，分别打开enp0s3和enp0s8,并修改左下角主机名为hby；![](https://img-blog.csdnimg.cn/20190828193901312.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h1YW5fdGluZw==,size_16,color_FFFFFF,t_70)
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190828194204612.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h1YW5fdGluZw==,size_16,color_FFFFFF,t_70)
+   (3)点击“网络和主机名”，分别打开enp0s3和enp0s8,并修改左下角主机名为hby；
+   ![](https://img-blog.csdnimg.cn/20190828193901312.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h1YW5fdGluZw==,size_16,color_FFFFFF,t_70)
+   ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190828194204612.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h1YW5fdGluZw==,size_16,color_FFFFFF,t_70)
   
-  (4)点击“开始安装”，设置好ROOT密码，并填写用户名且设置为管理员；
+   (4)点击“开始安装”，设置好ROOT密码，并填写用户名且设置为管理员；
    ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190828194653649.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h1YW5fdGluZw==,size_16,color_FFFFFF,t_70)
    (5)升级OS内核
    重启安装成功后，输入用户名和密码进入系统，然后输入```yum update```命令升级OS内核。
